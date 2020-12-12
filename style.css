@@ -1,0 +1,65 @@
+html {
+    background-color: teal;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f5f5f5;
+    border: 2px solid #1f1b24;
+    box-shadow: 0 0 5px #1f1b24;
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+ul {
+    border: 3px ridge rgb(196, 196, 196);
+    background-color: rgba(255, 99, 71, 0.2);
+    width: 80%;
+    padding: 10px;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+    padding-inline-start: 0;
+    box-shadow: 0 0 5px #1f1b24;
+}
+hr {
+    color: #ccc;
+    margin: 0;
+}
+.profile {
+    border: 3px solid red;
+    display: flex;
+    align-items: center;
+    padding: 10px 0 0 10px;
+    /* margin: 5px; */
+}
+.profile:hover {
+    background-color: rgba(255, 99, 71, 0.9);
+    box-shadow: 3px 3px 2px rgba(255, 99, 71, 0.9);
+}
+.profile:active {
+    background-color: rgba(255, 99, 71, 0.9);
+    position: relative;
+    top: 5px;
+    box-shadow: 1px 1px 5px rgba(255, 99, 71, 0.9);
+}
+.profile img {
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    margin: 5px 5px;
+}
+.profile .name {
+    color: #121212;
+    font-weight: bold;
+    padding-left: 10px;
+}
+.profile .address {
+    color: #505050;
+    padding-left: 10px;
+}
